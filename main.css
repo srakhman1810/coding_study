@@ -185,7 +185,7 @@ ul li {
     margin-right: 20px; 
 }
 
-.last-news  li:nth-child(2n) {
+.last-news__table  li:nth-child(2n) {
     margin-right: 200px;
 }
 
@@ -201,11 +201,15 @@ ul li {
     font-size: 18px;
 } 
 
-
-
 .pagination{
     padding-top: 77px;
-    word-spacing: 16px;
+}
+
+.pagination__table {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+
 }
 .pagination a {
     text-decoration: none;
@@ -214,7 +218,6 @@ ul li {
 .pagination a:hover{
     color: rgb(248,149,19);
 }
-
 .pagination__link-active {
     display: block;
     background-color: black;
@@ -222,8 +225,16 @@ ul li {
     height: 25px;
     color: rgb(248,149,19) !important;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 20%;
 }
+
+
+
+
+
+
+
+
 
 
 .top-news {
