@@ -231,17 +231,12 @@ ul li {
 
 
 
-
-
-
-
-
-
 .top-news {
     display: block;
     width:163px;
     height:535px;
     padding: 20px;
+    vertical-align: top;
 }
 .top-news__heading{
     text-align: center;
@@ -252,35 +247,41 @@ ul li {
 }
 
 
+
+
 .footer {
     background-color: rgb(19,20,21);
     color: white; 
 }
-
-.footer__container {
+.footer-container {
     height: 77px;
     position: relative;
 }
-
 .developer {
     display: block;
     width:239px;
     height:50px;
     font-size: 14px;
     font-display: none; 
-    padding-top: 14px;
+    position: absolute;
+    left: 0;
+    top: 14px;
 }
 .developer a {
     color: white;
 }
-
 .logofooter {
-    padding-top: 29px;
+    position: absolute;
+    top: 29px;
+    left: 470px;
 }
 
-.social-networks__heading{
-  padding-top: 20px;
+.social-networks{
+ position: absolute;
+ top: 15px;
+ right: 0px;
 }
+ 
 .social-networks__block{
     padding-top: 8px;
 }
@@ -291,6 +292,7 @@ height: 20px;
 background-color: rgb(208,208,208);
 border-radius: 50%;
 position: relative;
+margin-left: 10px;
 }
 .social-networks__pic{
 position: absolute;
@@ -301,3 +303,4 @@ position: absolute;
 .social-networks__link-active {
     background-color: rgb(248,149,19);
 }
+
