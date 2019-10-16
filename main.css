@@ -108,7 +108,7 @@ ul li {
 .features {
     background-color: black;
     color: white;
-    /* padding-top:66px; */
+   
 }
 .features__heading{
     text-transform: uppercase;
@@ -165,6 +165,11 @@ ul li {
 .features__description ul li {
     display: block;
     list-style-type: circle; /*не работает*/ 
+}
+
+
+.last-news-container {
+    position: relative;
 }
 .last-news__heading{
     text-transform: uppercase;
@@ -229,14 +234,18 @@ ul li {
 }
 
 
-
-
 .top-news {
-    display: block;
+    position: absolute;
+    right: 20px;
+    top: 184px;
+}
+
+.top-news__table {
+    display: inline-block;
     width:163px;
     height:535px;
-    padding: 20px;
-    vertical-align: top;
+    right: 20px;
+    
 }
 .top-news__heading{
     text-align: center;
@@ -245,6 +254,15 @@ ul li {
     letter-spacing: 2px;
     font-size: 12px;
 }
+
+
+
+
+
+
+
+
+
 
 
 
