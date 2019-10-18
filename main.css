@@ -6,15 +6,15 @@ body{
 }
 
 .header {
-    /* background-color: rgb(19,20,21); */
-    background-color: green;
+    background-color: rgb(19,20,21);
+
 }
 .container {
     margin: 0 auto;
     width: 1100px;
 }
 .header-container {
-    height: 77px;
+    padding: 40px 20px;
     position: relative;
     font-weight: bold;
 }
@@ -90,30 +90,32 @@ body{
   text-align:center;
 }
 
-
 .features {
-    background-color: black;
+    background-color: rgb(19,20,21);
     color: white;
-   
 }
+.features-container {
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+
 .features__heading{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 49px;
     text-align: center;
-    padding-top: 66px;
     margin: 0px;
 }
 .features__table {
-    display: inline-block;
-    margin-left: 160px;
-    margin-bottom:102px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
 }
-.features__point {
-    display: inline-block; 
-    padding-top: 66px; 
-    vertical-align:top; 
-    padding-right: 75px;   
+
+ .features__table-item {
+    display: inline-block;
+    vertical-align:top;  
+    margin-right: 75px;  
  }
 .features__block {
     display: block;
@@ -122,8 +124,10 @@ body{
     background-color: rgb(248,149,19);
     border-radius: 50%;
     position: relative;
-    margin-left: 60px;
-}  
+    margin-top: 63px;
+    margin-left: 60px;  
+    margin-bottom: 40px;
+} 
 .features__image {
    position: absolute;
    top: 50%;
@@ -135,9 +139,8 @@ body{
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: center;
-    padding-top: 40px;
 }
+
 .features__description {
     display: block;
     width: 197px;
@@ -146,12 +149,22 @@ body{
     font-size: 12px;
 }
 .features__description p{
-    text-align: center;
+    line-height: 2em;
 }
-.features__description ul li {
-    display: block;
-    list-style-type: circle; /*не работает*/ 
+
+.feautures__list ul{
+  list-style-type: disc;
 }
+
+.features__item{
+  text-align: left !important;
+  margin-bottom: 10px;
+}
+
+
+
+
+
 
 
 .last-news-container {
