@@ -104,7 +104,7 @@ body{
     font-weight: bold;
     font-size: 49px;
     text-align: center;
-    margin: 0px;
+    margin: 0px 0px 63px;
 }
 .features__table {
     padding: 0px;
@@ -124,9 +124,9 @@ body{
     background-color: rgb(248,149,19);
     border-radius: 50%;
     position: relative;
-    margin-top: 63px;
-    margin-left: 60px;  
+    margin-left: 60px;   
     margin-bottom: 40px;
+   
 } 
 .features__image {
    position: absolute;
@@ -161,11 +161,13 @@ body{
   margin-bottom: 10px;
 }
 
+
+
 .last-news-container {
     position: relative;
     padding-top: 69px;
-    margin: 0px;
 }
+
 .last-news__heading{
     text-transform: uppercase;
     font-weight: bold;
@@ -176,46 +178,46 @@ body{
     padding: 0px;
 }  
 .last-news__table {
-    display: inline-block;
     font-size: 0px;
     margin:0px;
     margin-bottom: 77px;
     padding: 0px;
 }
 
-.last-news__table li{
-    margin-bottom: 62px;
-    margin-right: 20px; 
+.last-news__item {
+    width: 800px;
+    height: 166px;
+    margin: 0px;
+    padding: 30px 0px;
+    position: relative;
+    border-bottom: solid rgb(208,208,208) 1px;
 }
-
-.last-news__table  li:nth-child(2n) {
-    margin-right: 200px;
-}
-
 .last-news__avatar{
     width: 160px;
     height: 160px;
     border-radius: 50%;   
 }
 .last-news__comment{
-    display: block;
     height: 166px;
-    width: 610px;
-    font-size: 18px;
+    width: 600px;
+    font-size: 16px;
+    position: absolute;
+    top: 30px;
+    right: 0px;
 } 
+
+
+
+
+
+
 
 
 .pagination{
     margin-top: 0px;
     margin-bottom: 65px;
-}
-
-.pagination__table {
-    font-size: 14px;
-    letter-spacing: 2px;
     text-align: center;
-
-}
+}   
 .pagination a {
     text-decoration: none;
     color: black;
@@ -232,6 +234,18 @@ body{
     text-align: center;
     border-radius: 20%;
 }
+.pagination__item {
+    display: inline-block;
+    letter-spacing: 4px;
+}
+.pagination__display{
+    word-spacing: 4px;
+}
+
+.pagination__pager  {
+
+}
+
 
 
 
@@ -241,17 +255,17 @@ body{
     right: 20px;
     top: 184px;
     margin: 0px;
-    padding: 0px;  
+    padding: 0px; 
 }
 .top-news__table {
     list-style: none;
-    width: 100%;
-    height:535px;
-    right: 20px;
+    margin: 0px;
+    padding: 0px;
 }
-.top-news__image{
+.top-news__item{
     width: 160px;
-    height: 120px;
+    height: 100%;
+    margin-bottom: 20px;
 }
 .top-news__heading{
     text-align: center;
@@ -259,7 +273,10 @@ body{
     font-weight: bold;
     letter-spacing: 3px;
     font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 0px;
 }
+
 .top-news__heading-grey {
     color: grey;
 }
