@@ -9,6 +9,7 @@ body{
 
 .header {
     background-color: rgb(19,20,21);
+    margin-bottom: 79px;
 
 }
 .container {
@@ -92,6 +93,14 @@ body{
 }
 .contacts__work-time:hover{
     color: rgb(255,255,255); 
+}
+
+.page {
+    margin-bottom: 69px;
+}
+
+.image-container {
+    margin-bottom: 58px;
 }
 .pic {
   text-align:center;
@@ -177,7 +186,6 @@ body{
 .last-news-container {
     position: relative; 
     padding-top: 69px;
-    margin-bottom: 69px; 
 }
 
 .last-news__heading{
