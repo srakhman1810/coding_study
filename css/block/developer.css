@@ -1,0 +1,14 @@
+.developer {
+    display: block;
+    width: 239px;
+    height: 50px;
+    font-size: 14px;
+    font-display: none;
+    position: absolute;
+    left: 0;
+    top: 14px;
+}
+
+.developer a {
+    color: white;
+}

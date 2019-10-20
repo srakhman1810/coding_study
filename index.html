@@ -3,222 +3,227 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=1100, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Главная</title>
-    <link rel="stylesheet" href="./main.css" type="text/css">
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
 </head>
 
 <body>
     <div class="wrapper">
-        <!--верхняя шапка-->
-        <header class="header">
-            <div class="container header-container">
-                <a href="#" class="logo">
-                    <img class="logo__pics" src="./img/afrodita.png" alt="логотип">
-                </a>
-                <nav class="nav">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#" class="nav__link nav__link--afrodita">
-                                Главная
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link nav__link--feed">
-                                Отзывы
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link nav__link--service">
-                                Услуги
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="contacts">
-                    <a href="tell:+78000039210" class="contacts__cellphone"> 8 (800) 00-392-10
+        <div class="wrapper__content">
+            <!--верхняя шапка-->
+            <header class="header">
+                <div class="container header-container">
+                    <a href="./index.html" class="logo">
+                        <img class="logo__pics" src="./img/afrodita.png" alt="логотип">
                     </a>
-                    <a href="/../../" class="contacts__work-time"> График работы </a>
-                </div>
-            </div>
-        </header>
-        <!--сама страница-->
-        <div class="page">
-            <div class="container image-container">
-                <div class="pic"> 
-                    <img src="./img/Image.png" alt="just do it" class="pic__image">
-                </div> 
-            </div>
-            <!--первый блок-->
-            <div class="features">
-                <div class="container features-container">
-                    <h1 class="features__heading">особенности</h1>
-                    <ul class="features__table">
-                        <li class="features__table-item">
-                            <div class="features__block">
-                                <img src="./img/flower.png" alt="" class="features__image">
-                            </div>
-                            <div class="features__name">
-                                <h4>Уникальность</h4>
-                            </div>
-                            <div class="features__description">
-                                <p> Мы делаем все для вашего комфорта</p>
-                                <ul class="features__list">
-                                    <li class="features__item">Питание включено</li>
-                                    <li class="features__item"> Багаж (5кг)</li>
-                                    <li class="features__item"> Душ/баня</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="features__table-item">
-                            <div class="features__block">
-                                <img src="./img/mark-as-favorite-star.png" alt="" class="features__image">
-                            </div>
-                            <div class="features__name">
-                                <h4>Премиум-класс</h4>
-                            </div>
-                            <div class="features__description">
-                                <p> Наш зал оборудован тренажерами А-класса</p>
-                                <ul class="features__list">
-                                    <li class="features__item">Качество</li>
-                                    <li class="features__item">Продуктивность</li>
-                                    <li class="features__item">Результат</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="features__table-item">
-                            <div class="features__block">
-                                <img src="./img/painter-palette.png" alt="" class="features__image">
-                            </div>
-                            <div class="features__name">
-                                <h4>Личный тренер</h4>
-                            </div>
-                            <div class="features__description">
-                                <p> Тренер сделает всё для вашего результата</p>
-                                <ul class="features__list">
-                                    <li class="features__item">Программа</li>
-                                    <li class="features__item">Питание</li>
-                                    <li class="features__item">План тренеровок</li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- второй блок-->
-            <div class="last-news">
-                <div class="container last-news-container">
-                    <h1 class="last-news__heading">последние новости</h1>
-                    <ul class="last-news__table">
-                        <li class="last-news__item">
-                            <div class="last-news__block">
-                                <img class="last-news__avatar" src="./img/2.png" alt="">
-                            </div>
-                            <div class="last-news__comment">
-                                <div class="last-news__date">12.10.2016</div>
-                                <h3 class="last-news__topic">Похудение с помощью бодибилдинга</h3>
-                                <p class="last-news__text">Вдыхание одного литра кислорода эквивалентно
-                                    &laquo;сжиганию&raquo;
-                                    5 калорий, однако в минуту при самом высоком темпе движений атлет
-                                    способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для
-                                    каждого начинающего атлета.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="last-news__item">
-                            <div class="last-news__block">
-                                <img class="last-news__avatar" src="./img/3.png" alt="">
-                            </div>
-                            <div class="last-news__comment">
-                                <div class="last-news__date">01.02.2016</div>
-                                <h3 class="last-news__topic">Заражай друзей, получай призы!</h3>
-                                <p class="last-news__text">Дополнительно для Вас: пользование сауной и предоставление
-                                    средств
-                                    личной гигиены,пользование баром,таблица замеров, дружеская атмосфера
-                                    и постоянная поддержка.Мы заботимся о вашем комфорте и предлагаем
-                                    испытать это уже сегодня!
-                                </p>
-                            </div>
-                        </li>
-                        <li class="last-news__item">
-                            <div class="last-news__block">
-                                <img class="last-news__avatar" src="./img/4.png" alt="">
-                            </div>
-                            <div class="last-news__comment">
-                                <div class="last-news__date">22.12.2015</div>
-                                <h3 class="last-news__topic">Фрилансер? Выпрями спину!</h3>
-                                <p class="last-news__text">Создайте рабочее место под себя. Вот этот инструмент поможет
-                                    определить,
-                                    что подходит именно Вам и Вашему организму. используйте специальную подставку
-                                    для ноутбука,если Вы проводите за ним больше 2 часов. Настройте высоту и
-                                    яркость монитора.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                    <!--Пагинация-->
-                    <div class="pagination">
-                        <div class="pagination__display"> Страница 1 из 7</div>
-                        <div class="pagination__pager">
-                            <a href="#" class="pagination__button-prev"> &lt; </a>
-                            <ul class="pagination__list">
-                                <li class="pagination__item pagination__item-active">
-                                    <a href="#" class="pagination__link pagination__link-active">1 </a>
-                                </li>
-                                <li class="pagination__item">
-                                    <a href="#" class="pagination__link">2</a>
-                                </li>
-                                <li class="pagination__item">
-                                    <a href="#" class="pagination__link">3</a>
-                                </li>
-                                <li class="pagination__item">
-                                    <a href="#" class="pagination__link">4</a>
-                                </li>
-                                <li class="pagination__item">
-                                    <a href="#" class="pagination__link">5</a>
-                                </li>
-                                <li class="pagination__item">
-                                    <a href="#" class="pagination__link">6</a>
-                                </li>
-                                <li class="pagination__item">
-                                    <a href="#" class="pagination__link">7</a>
-                                </li>
-                            </ul>
-                            <a href="#" class="pagination__button-next"> &gt; </a>
-                        </div>
-                    </div>
-                    <!--Боковой блок-->
-                    <aside class="top-news">
-                        <h3 class="top-news__heading">Топ новостей</h3>
-                        <h3 class="top-news__heading top-news__heading-grey">за сентябрь</h3>
-                        <ul class="top-news__table">
-                            <li class="top-news__item">
-                                <a href="#" class="top-news__link">
-                                    <img class="top-news__image" src="./img/Layer_10.png" alt="">
+                    <nav class="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="./index.html" class="nav__link nav__link--afrodita">
+                                    Главная
                                 </a>
                             </li>
-                            <li class="top-news__item">
-                                <a href="#" class="top-news__link">
-                                    <img class="top-news__image" src="./img/Layer_11.png" alt="">
+                            <li class="nav__item">
+                                <a href="./index.3.html" class="nav__link nav__link--feed">
+                                    Отзывы
                                 </a>
                             </li>
-                            <li class="top-news__item">
-                                <a href="#" class="top-news__link">
-                                    <img class="top-news__image" src="./img/Layer_12.png" alt="">
+                            <li class="nav__item">
+                                <a href="./index2.html" class="nav__link nav__link--service">
+                                    Услуги
                                 </a>
                             </li>
                         </ul>
-                    </aside>
+                    </nav>
+                    <div class="contacts">
+                        <a href="tell:+78000039210" class="contacts__cellphone"> 8 (800) 00-392-10
+                        </a>
+                        <a href="/../../" class="contacts__work-time"> График работы </a>
+                    </div>
+                </div>
+            </header>
+            <!--сама страница-->
+            <div class="page">
+                <div class="container image-container">
+                    <div class="pic">
+                        <img src="./img/Image.png" alt="just do it" class="pic__image">
+                    </div>
+                </div>
+                <!--первый блок-->
+                <div class="features">
+                    <div class="container features-container">
+                        <h1 class="features__heading">особенности</h1>
+                        <ul class="features__table">
+                            <li class="features__table-item">
+                                <div class="features__block">
+                                    <img src="./img/flower.png" alt="" class="features__image">
+                                </div>
+                                <div class="features__name">
+                                    <h4>Уникальность</h4>
+                                </div>
+                                <div class="features__description">
+                                    <p> Мы делаем все для вашего комфорта</p>
+                                    <ul class="features__list">
+                                        <li class="features__item">Питание включено</li>
+                                        <li class="features__item"> Багаж (5кг)</li>
+                                        <li class="features__item"> Душ/баня</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="features__table-item">
+                                <div class="features__block">
+                                    <img src="./img/mark-as-favorite-star.png" alt="" class="features__image">
+                                </div>
+                                <div class="features__name">
+                                    <h4>Премиум-класс</h4>
+                                </div>
+                                <div class="features__description">
+                                    <p> Наш зал оборудован тренажерами А-класса</p>
+                                    <ul class="features__list">
+                                        <li class="features__item">Качество</li>
+                                        <li class="features__item">Продуктивность</li>
+                                        <li class="features__item">Результат</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="features__table-item">
+                                <div class="features__block">
+                                    <img src="./img/painter-palette.png" alt="" class="features__image">
+                                </div>
+                                <div class="features__name">
+                                    <h4>Личный тренер</h4>
+                                </div>
+                                <div class="features__description">
+                                    <p> Тренер сделает всё для вашего результата</p>
+                                    <ul class="features__list">
+                                        <li class="features__item">Программа</li>
+                                        <li class="features__item">Питание</li>
+                                        <li class="features__item">План тренеровок</li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- второй блок-->
+                <div class="last-news">
+                    <div class="container last-news-container">
+                        <h1 class="last-news__heading">последние новости</h1>
+                        <ul class="last-news__table">
+                            <li class="last-news__item">
+                                <div class="last-news__block">
+                                    <img class="last-news__avatar" src="./img/2.png" alt="">
+                                </div>
+                                <div class="last-news__comment">
+                                    <div class="last-news__date">12.10.2016</div>
+                                    <h3 class="last-news__topic">Похудение с помощью бодибилдинга</h3>
+                                    <p class="last-news__text">Вдыхание одного литра кислорода эквивалентно
+                                        &laquo;сжиганию&raquo;
+                                        5 калорий, однако в минуту при самом высоком темпе движений атлет
+                                        способен вдохнуть не более 3-4 литров кислорода. Это крайне важно для
+                                        каждого начинающего атлета.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="last-news__item">
+                                <div class="last-news__block">
+                                    <img class="last-news__avatar" src="./img/3.png" alt="">
+                                </div>
+                                <div class="last-news__comment">
+                                    <div class="last-news__date">01.02.2016</div>
+                                    <h3 class="last-news__topic">Заражай друзей, получай призы!</h3>
+                                    <p class="last-news__text">Дополнительно для Вас: пользование сауной и
+                                        предоставление
+                                        средств
+                                        личной гигиены,пользование баром,таблица замеров, дружеская атмосфера
+                                        и постоянная поддержка.Мы заботимся о вашем комфорте и предлагаем
+                                        испытать это уже сегодня!
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="last-news__item">
+                                <div class="last-news__block">
+                                    <img class="last-news__avatar" src="./img/4.png" alt="">
+                                </div>
+                                <div class="last-news__comment">
+                                    <div class="last-news__date">22.12.2015</div>
+                                    <h3 class="last-news__topic">Фрилансер? Выпрями спину!</h3>
+                                    <p class="last-news__text">Создайте рабочее место под себя. Вот этот инструмент
+                                        поможет
+                                        определить,
+                                        что подходит именно Вам и Вашему организму. используйте специальную подставку
+                                        для ноутбука,если Вы проводите за ним больше 2 часов. Настройте высоту и
+                                        яркость монитора.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                        <!--Пагинация-->
+                        <div class="pagination">
+                            <div class="pagination__display"> Страница 1 из 7</div>
+                            <div class="pagination__pager">
+                                <a href="#" class="pagination__button-prev"> &lt; </a>
+                                <ul class="pagination__list">
+                                    <li class="pagination__item pagination__item-active">
+                                        <a href="#" class="pagination__link pagination__link-active">1 </a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="#" class="pagination__link">2</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="#" class="pagination__link">3</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="#" class="pagination__link">4</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="#" class="pagination__link">5</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="#" class="pagination__link">6</a>
+                                    </li>
+                                    <li class="pagination__item">
+                                        <a href="#" class="pagination__link">7</a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="pagination__button-next"> &gt; </a>
+                            </div>
+                        </div>
+                        <!--Боковой блок-->
+                        <aside class="top-news">
+                            <h3 class="top-news__heading">Топ новостей</h3>
+                            <h3 class="top-news__heading top-news__heading-grey">за сентябрь</h3>
+                            <ul class="top-news__table">
+                                <li class="top-news__item">
+                                    <a href="#" class="top-news__link">
+                                        <img class="top-news__image" src="./img/Layer_10.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="top-news__item">
+                                    <a href="#" class="top-news__link">
+                                        <img class="top-news__image" src="./img/Layer_11.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="top-news__item">
+                                    <a href="#" class="top-news__link">
+                                        <img class="top-news__image" src="./img/Layer_12.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+                    </div>
                 </div>
             </div>
         </div>
-
         <footer class="footer">
             <div class="container footer-container">
                 <div class="developer"> Cделано с любовью и старанием на курсе
                     &laquo;HTML+CSS&raquo; в <a href=loftschool.com class="developer__link"> LoftSchool. </a>
                     Автор работы: Рахманова Севара
                 </div>
-                <a href="#" class="logofooter">
+                <a href="./index.html" class="logofooter">
                     <img class="logofooter__pics" src="./img/afrodita.png" alt="">
                 </a>
                 <div class="social-networks">
@@ -228,22 +233,22 @@
                     <div class="social-networks__block">
                         <ul class="social-networks__list">
                             <li class="social-networks__item">
-                                <a href="#" class="social-networks__link social-networks__link-active">
+                                <a href="https://vk.com" class="social-networks__link social-networks__link-active">
                                     <img src="./img/vk.png" alt="Вконтакте" class="social-networks__pic">
                                 </a>
                             </li>
                             <li class="social-networks__item">
-                                <a href="#" class="social-networks__link">
+                                <a href="https://www.facebook.com" class="social-networks__link">
                                     <img src="./img/fb.png" alt="Facebook" class="social-networks__pic">
                                 </a>
                             </li>
                             <li class="social-networks__item">
-                                <a href="#" class="social-networks__link">
+                                <a href="https://plus.google.com" class="social-networks__link">
                                     <img src="./img/google.png" alt="Google+" class="social-networks__pic">
                                 </a>
                             </li>
                             <li class="social-networks__item">
-                                <a href="#" class="social-networks__link">
+                                <a href="https://twitter.com" class="social-networks__link">
                                     <img src="./img/twitter.png" alt="Twitter" class="social-networks__pic">
                                 </a>
                             </li>
@@ -257,7 +262,7 @@
                 </div>
             </div>
         </footer>
-
+    </div>
 </body>
 
 </html>

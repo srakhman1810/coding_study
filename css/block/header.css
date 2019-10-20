@@ -1,0 +1,10 @@
+.header {
+    background-color: rgb(19, 20, 21);
+    margin-bottom: 79px;
+}
+
+.header-container {
+    padding: 40px 20px;
+    position: relative;
+    font-weight: bold;
+}
