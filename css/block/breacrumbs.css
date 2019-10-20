@@ -1,0 +1,21 @@
+.breadcrumbs__list{
+    padding: 0px;
+    margin: 0px 0px 28px;
+    text-align: left;
+    font-style: italic;
+    font-weight: lighter;
+    list-style: none;
+    font-size: 14px;
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.breadcrumbs__link {
+    text-decoration: none;
+    color: black;
+}
+
+.breadcrumbs__link-active {
+    text-decoration: underline;
+    color: rgb(248, 149, 19);

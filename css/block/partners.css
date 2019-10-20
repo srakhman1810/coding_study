@@ -1,0 +1,32 @@
+.partners__heading {
+    margin: 0px;
+    font-size: 49px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 87px;
+}
+
+.partners__table {
+    margin: 0px auto;
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+    width: 725px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-flow: row wrap;
+}
+
+.partners__item {
+width: 240px;
+}
+
+.partners__logo {
+    filter: grayscale(90%);
+}
+
+.partners__logo:hover{
+    filter: none;
+}
