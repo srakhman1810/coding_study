@@ -1,7 +1,36 @@
+
+.servises-container {
+    margin-bottom: 63px;
+}
+
+
 .servises__heading {
     font-size: 49px;
     font-weight: bold;
     text-align: left;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin: 0 0 50px;
+    padding: 0px;
+}
+
+.servises__table{
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+    width: 880px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.servises__description {
+    text-align: left;
+    width: 260px;
+}
+
+.servises__image-heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
 }

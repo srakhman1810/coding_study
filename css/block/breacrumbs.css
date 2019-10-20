@@ -1,6 +1,10 @@
+.breadcrumbs-container{
+    margin: 0px auto 28px;
+}
+
 .breadcrumbs__list{
     padding: 0px;
-    margin: 0px 0px 28px;
+    margin: 0px 0px;
     text-align: left;
     font-style: italic;
     font-weight: lighter;
