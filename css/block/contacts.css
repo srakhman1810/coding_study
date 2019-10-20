@@ -1,15 +1,11 @@
 .contacts {
-    position: absolute;
-    top: 22px;
-    right: 0;
     text-align: right;
     font-weight: bold;
+    font-style: normal;
 }
 
 .contacts__cellphone {
     color: rgb(255, 255, 255);
-    width: 170;
-    height: 18;
     font-size: 21px;
     text-decoration: none;
 }
@@ -17,8 +13,6 @@
 .contacts__work-time {
     display: block;
     color: rgb(248, 149, 19);
-    width: 114px;
-    height: 14px;
     font-size: 14px;
 }
 

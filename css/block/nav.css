@@ -1,34 +1,26 @@
-.nav {
-    position: absolute;
-    top: 14px;
-    left: 345px;
+.nav__list {
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
 }
 
-.nav__list li {
-    display: inline-block;
-    margin-right: 40px;
-}
-
-.nav__list li:nth-child(3) {
-    margin-right: 0px;
-}
 
 .nav a {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-
 .nav__link {
     list-style-type: none;
     background-repeat: no-repeat;
     padding-left: 25px;
 }
 
-
 .nav :hover {
     color: rgb(248, 149, 19);
 }
-
 .nav__link--afrodita {
     background-image: url(../../img/main_icon.png);
 }

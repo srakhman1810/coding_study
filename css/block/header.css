@@ -4,7 +4,9 @@
 }
 
 .header-container {
-    padding: 40px 20px;
-    position: relative;
+    padding: 20px 20px;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
