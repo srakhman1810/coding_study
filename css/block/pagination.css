@@ -2,29 +2,35 @@
     margin-right: 0px;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pagination__display {
-    display: inline-block;
     margin: 0px;
-    margin-right: 7px;
+    margin-right: 9px;  
 }
 
 .pagination__pager {
     margin: 0px;
-    display: inline-block;
-    letter-spacing: 7px;
+    width: 215px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .pagination__list {
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
     margin: 0px;
     padding: 0px;
 }
 
 .pagination__item {
-    display: inline-block;
+    list-style: none;
     font-weight: bold;
 }
 
@@ -38,7 +44,7 @@
 }
 
 .pagination__item-active {
-    /* display: block; */
+    display: block;
     background-color: black;
     width: 25px;
     height: 25px;
@@ -52,7 +58,7 @@
 .pagination__link-active {
     color: white !important;
     position: absolute;
-    top: 45%;
-    left: 65%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
