@@ -45,7 +45,7 @@
                 </div>
             </header>
             <!--сама страница-->
-            <section class="main">
+            <section class="page">
                 <nav class="breadcrumbs">
                     <div class="container breadcrumbs-container">
                         <ul class="breadcrumbs__list">
@@ -169,39 +169,43 @@
                 </article>
                 <article class="form">
                     <div class="container form-container">
-                        <h2 class="form__heading">Оставить отзыв</h2>
-                        <form action="" class="form__area">
-                            <div class="form__row">
-                                <label class="form__row-block">
-                                    <div class="form__name"> Ваше имя</div>
-                                    <input type="text" placeholder="Андрей" class="form__input">
-                                </label>
-                                <label class="form__row-block">
-                                    <div class="form__name"> Ссылка на профиль VK</div>
-                                    <input type="text" placeholder="vk.com/example" class="form__input">
-                                </label>
-                            </div>
-                            <div class="form__row">
-                                <label class="form__row-block">
-                                    <div class="form__name">текст отзыва</div>
-                                    <textarea name="" class="form__input form__input-textarea"
-                                        placeholder="мне понравилось"></textarea>
-                                </label>
-                            </div>
-                            <div class="form__checkbox">
-                                <label class="form__checkbox-place">
-                                    <div class="form__checkbox-question">
-                                        <input type="radio" name="radio" class="form__checkbox-choice" checked>
-                                        <div class="form__checkbox-answer"> да </div>
-                                        <input type="radio" name="radio" class="form__checkbox-choice">
-                                        <div class="form__checkbox-answer"> нет </div>
-                                    </div>
-                                </label>
-                            </div>
-                            <div class="form__button">
-                                <input type="submit" value="отправить">
-                            </div>
-                        </form>
+                        <div class="form__box">
+                            <h2 class="form__heading">Оставить отзыв</h2>
+                            <form action="" class="form__area">
+                                <div class="form__row">
+                                    <label class="form__row-block">
+                                        <div class="form__name"> Ваше имя</div>
+                                        <input type="text" tabindex="1" placeholder="Андрей" class="form__input">
+                                    </label>
+                                    <label class="form__row-block">
+                                        <div class="form__name"> Ссылка на профиль VK</div>
+                                        <input type="text" tabindex="2" placeholder="vk.com/example"
+                                            class="form__input">
+                                    </label>
+                                </div>
+                                <div class="form__row">
+                                    <label class="form__row-block">
+                                        <div class="form__name">Текст отзыва</div>
+                                        <textarea name="" class="form__input form__input-textarea" tabindex="3"
+                                            placeholder="Мне понравилось"></textarea>
+                                    </label>
+                                </div>
+                                <div class="form__checkbox"> Отобразить фото в отзыве?
+                                    <label class="form__checkbox-place">
+                                        <div class="form__checkbox-question">
+                                            <input type="radio" name="radio" class="form__checkbox-choice" checked>
+                                            <div class="form__checkbox-answer"> да </div>
+                                            <input type="radio" name="radio" class="form__checkbox-choice">
+                                            <div class="form__checkbox-answer"> нет </div>
+                                        </div>
+                                        <div class="form__button">
+                                            <input type="submit" class="form__send" value="отправить">
+                                        </div>
+                                    </label>
+                                </div>
+
+                            </form>
+                        </div>
                     </div>
                 </article>
             </section>
