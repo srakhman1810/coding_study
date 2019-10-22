@@ -1,0 +1,28 @@
+.block {
+    background: rgb(0, 0, 0);
+    background-image: url(../../img/background.png);
+}
+
+.block-container {
+    width: 636px;
+    height: 107px;
+    margin-bottom: 61px;
+    padding-top: 30px;
+    padding-bottom: 34px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: -apple-system, 'Segoe UI', sans-serif;
+}
+
+.block__text-active {
+    color: rgb(248, 149, 19);
+    font-weight: bold;
+}
+
+.block__text {
+    margin: 0px 0px;
+    height: 100%;
+    width: 100%;
+    line-height: 27px;
+}

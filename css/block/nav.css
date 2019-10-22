@@ -38,7 +38,7 @@
 }
 
 .nav__link--feed:hover {
-    background-image: url(../../img/feed_icon_copy.png)
+    background-image: url(../../img/feed_icon_copy.png);
 }
 
 .nav__link--service:hover {
