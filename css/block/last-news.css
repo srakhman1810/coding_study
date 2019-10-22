@@ -1,6 +1,5 @@
 .last-news-container {
-    position: relative;
-    padding-top: 69px;  
+    padding-top: 69px; 
 }
 
 .last-news__heading {
@@ -13,14 +12,21 @@
     padding: 0px;
 }
 
+.last-news__block{
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
 .last-news__table {
     margin: 0px;
-    margin-bottom: 77px;
     padding: 0px;
 }
 
 .last-news__item {
-    width: 800px;
+    width: 832px;
     height: 166px;
     display: flex;
     justify-content: space-between;

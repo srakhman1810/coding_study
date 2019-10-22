@@ -18,18 +18,14 @@
 
 .features__table {
     padding: 0px;
-    margin: 0px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 738px; 
+    height: 304px;
     text-align: center;
-}
-
-.features__table-item {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 75px;
-}
-
-.features__table-item:nth-child(3) {
-    margin-right: 0px;
+    list-style: none;
 }
 
 .features__block {
@@ -57,25 +53,26 @@
 }
 
 .features__description {
-    width: 197px;
+    width: 195px;
     height: 152px;
     letter-spacing: 2px;
     font-size: 12px;
 }
 
 .features__description p {
-    line-height: 2em;
+    line-height: 2em; 
 }
 
 .feautures__list ul {
     list-style-type: disc;
 }
+    
 
 .features__item {
     text-align: left !important;
-    margin-bottom: 10px;
+    margin-bottom: 10px;     
 }
 
-.features__item:nth-child(3) {
-    margin-bottom: 0px;
+.features__item:nth-child(3){
+    margin-bottom: 0px; 
 }

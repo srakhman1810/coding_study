@@ -1,9 +1,7 @@
 .top-news {
-    position: absolute;
-    right: 20px;
-    top: 202px;
     margin: 0px;
     padding: 0px;
+    padding-top: 30px;
 }
 
 .top-news__table {
@@ -23,15 +21,16 @@
 }
 
 .top-news__heading {
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 3px;
     font-size: 12px;
-    margin-bottom: 20px;
-    margin-top: 0px;
+    margin-bottom: 0px; 
+     margin-top: 0px;
 }
 
 .top-news__heading-grey {
     color: grey;
+    margin-bottom: 24px;
 }
