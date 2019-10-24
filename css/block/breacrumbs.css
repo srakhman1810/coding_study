@@ -15,9 +15,8 @@
     font-weight: lighter;
     list-style: none;
     font-size: 14px;
-    width: 116px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .breadcrumbs__link {
@@ -28,3 +27,9 @@
 .breadcrumbs__link-active {
     text-decoration: underline;
     color: rgb(248, 149, 19);
+    margin-right: 2px;
+}
+
+.breadcrumbs__item-active {
+    margin-right: 4px;
+}

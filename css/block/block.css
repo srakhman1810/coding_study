@@ -1,12 +1,13 @@
 .block {
     background: rgb(0, 0, 0);
     background-image: url(../../img/background.png);
+    margin-bottom: 61px;
 }
 
 .block-container {
     width: 636px;
     height: 107px;
-    margin-bottom: 61px;
+   
     padding-top: 30px;
     padding-bottom: 34px;
     color: rgb(255, 255, 255);
