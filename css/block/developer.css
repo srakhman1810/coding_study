@@ -1,0 +1,11 @@
+.developer {
+    display: block;
+    width: 239px;
+    height: 50px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.developer a {
+    color: white;
+}

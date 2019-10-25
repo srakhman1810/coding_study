@@ -1,0 +1,38 @@
+
+.social-networks__heading {
+    margin-bottom: 8px;
+}
+
+.social-networks__list {
+    margin: 0px;
+    padding: 0px;
+}
+
+.social-networks__item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-networks__item:nth-child(5) {
+    margin-right: 0px;
+}
+
+.social-networks__link {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(208, 208, 208);
+    border-radius: 50%;
+    position: relative;
+}
+
+.social-networks__pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social-networks__link:hover {
+    background-color: rgb(248, 149, 19);
+}

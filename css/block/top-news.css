@@ -1,0 +1,36 @@
+.top-news {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.top-news__table {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.top-news__item {
+    width: 160px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.top-news__item:nth-child(3) {
+    margin-bottom: 0px;
+}
+
+.top-news__heading {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 12px;
+    margin-bottom: 0px; 
+     margin-top: 0px;
+}
+
+.top-news__heading-grey {
+    color: grey;
+    margin-bottom: 24px;
+}
