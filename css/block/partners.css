@@ -29,10 +29,10 @@
 }
 
 .partners__logo {
-    filter: grayscale(90%);
-    transition: 2s linear;
+    filter:grayscale(90%);
+    transition: 1s linear;
 }
 
 .partners__logo:hover {
-    filter: none;
+   filter:grayscale(1%);
 }

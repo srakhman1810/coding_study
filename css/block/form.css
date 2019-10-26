@@ -20,24 +20,25 @@
 .form__row {
     display: flex;
     align-items: center;
-    margin-bottom: 20px 
+    margin-bottom: 20px
 }
 
-.form__row-block{
+.form__row-block {
     flex: 1;
     margin-left: 23px;
 
 }
+
 .form__row-block:nth-child(1) {
     margin-left: 0px;
 }
 
-.form__input{
+.form__input {
     width: 100%;
     border: none;
     border-radius: 5px;
-    background: rgb(255,255,255);
-    padding: 15px 9px;   
+    background: rgb(255, 255, 255);
+    padding: 15px 9px;
     outline: none;
     border: 1px solid transparent;
 }
@@ -46,12 +47,12 @@
     border-color: rgb(248, 149, 19);
 }
 
-.form__input::placeholder{
-   color: grey:
+.form__input::placeholder {
+    color: grey:
 }
 
 textarea::placeholder {
-   color: rgb(0,0,0);
+    color: rgb(0, 0, 0);
 }
 
 .form__name {
@@ -77,12 +78,61 @@ textarea::placeholder {
     align-items: center;
 }
 
+.form__checkbox-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 21px; 
+
+}
+.form__checkbox-box:nth-child(2){
+    margin-right: 0px;
+}
+
+.form__checkbox-choice {
+    margin-right: 6px;
+}
+
+.form__checkbox-choice {
+    display: none;
+}
+
+.form__circle {
+    width: 20px;
+    height:20px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    margin-right: 6px;
+    position: relative;
+}
+
+.form__circle-checked {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: rgb(248, 149, 19);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    
+}
+
+input:checked ~.form__checkbox-answer {
+    color: rgb(248, 149, 19);
+}
+
+input:checked ~ .form__circle .form__circle-checked {
+    display: block;
+}
+
 .form__send {
     height: 45px;
     width: 125px;
     border-radius: 5px;
-    background: rgb(0,0,0);
-    color: rgb(255,255,255);
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
@@ -92,7 +142,6 @@ textarea::placeholder {
 .form__send:hover {
     cursor: pointer;
 }
-
 
 .form__send:active {
     background: rgb(248, 149, 19);

@@ -26,9 +26,9 @@
                                 </a>
                             </li>
                             <li class="nav__item">
-                                <a href="./review.html"  class="nav__link nav__link--feed">
+                                <a href="./review.html" class="nav__link nav__link--feed">
                                     Отзывы
-                            </a>
+                                </a>
                             </li>
                             <li class="nav__item">
                                 <a href="./servises.html" class="nav__link nav__link--service">
@@ -193,10 +193,22 @@
                                 <div class="form__checkbox"> Отобразить фото в отзыве?
                                     <label class="form__checkbox-place">
                                         <div class="form__checkbox-question">
-                                            <input type="radio" name="radio" class="form__checkbox-choice" checked>
-                                            <div class="form__checkbox-answer"> да </div>
-                                            <input type="radio" name="radio" class="form__checkbox-choice">
-                                            <div class="form__checkbox-answer"> нет </div>
+                                            <label class="form__checkbox-box">
+                                                <input type="radio" name="radio" class="form__checkbox-choice" checked
+                                                    id="form__checkbox-box">
+                                                <div class="form__circle">
+                                                    <div class="form__circle-checked"> </div>
+                                                </div>
+                                                <div class="form__checkbox-answer"> Да </div>
+                                            </label>
+                                            <label class="form__checkbox-box">
+                                                <input type="radio" name="radio" class="form__checkbox-choice"
+                                                    id="form__checkbox-box">
+                                                <div class="form__circle">
+                                                    <div class="form__circle-checked"> </div>
+                                                </div>
+                                                <div class="form__checkbox-answer"> Нет </div>
+                                            </label>
                                         </div>
                                         <div class="form__button">
                                             <input type="submit" class="form__send" value="отправить">
