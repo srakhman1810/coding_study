@@ -24,6 +24,7 @@
     background-color: rgb(208, 208, 208);
     border-radius: 50%;
     position: relative;
+    transition: 0.3s linear;  
 }
 
 .social-networks__pic {

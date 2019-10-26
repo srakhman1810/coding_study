@@ -1,4 +1,3 @@
-
 .partners__container {
     width: 880px;
 }
@@ -26,13 +25,14 @@
 }
 
 .partners__item {
-width: 240px;
+    width: 240px;
 }
 
 .partners__logo {
     filter: grayscale(90%);
+    transition: 2s linear;
 }
 
-.partners__logo:hover{
+.partners__logo:hover {
     filter: none;
 }

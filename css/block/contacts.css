@@ -15,9 +15,9 @@
 .contacts__work-time {
     color: rgb(248, 149, 19);
     font-size: 14px;
-    /* text-decoration: underline; */
+    transition: 0.3s linear;  
 }
-
+ 
 .contacts__work-time:hover {
     color: rgb(255, 255, 255);
 }

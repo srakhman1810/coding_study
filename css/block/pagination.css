@@ -25,7 +25,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 170px; */
     margin: 0px;
     padding: 0px;
 }
@@ -46,6 +45,7 @@
 .pagination a {
     text-decoration: none;
     color: black;
+    transition: 0.1s linear;  
 }
 
 .pagination a:hover {

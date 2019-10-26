@@ -22,12 +22,22 @@
 .breadcrumbs__link {
     text-decoration: none;
     color: black;
+    cursor: default;
 }
 
 .breadcrumbs__link-active {
     text-decoration: underline;
     color: rgb(248, 149, 19);
     margin-right: 2px;
+    text-decoration: none; 
+    /* transition: 1s linear;   */
+  
+}
+
+.breadcrumbs__link-active:hover{
+    text-decoration: underline;
+    cursor: pointer; 
+   
 }
 
 .breadcrumbs__item-active {
