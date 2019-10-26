@@ -2,6 +2,8 @@
     text-align: right;
     font-weight: bold;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
 }
 
 .contacts__cellphone {
@@ -13,10 +15,31 @@
 .contacts__work-time {
     color: rgb(248, 149, 19);
     font-size: 14px;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 .contacts__work-time:hover {
     color: rgb(255, 255, 255);
 }
 
+.contacts__menu  {
+    width: 163px;
+    height: 81px;
+    background: white;  
+    margin: 0px auto;
+    display: none;
+}
+
+
+.contact__list {
+    list-style: none;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.contact__item-active {
+    color: rgb(248, 149, 19);
+    font-weight: bold;
+}

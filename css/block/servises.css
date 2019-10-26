@@ -36,7 +36,7 @@
     margin: 0px 0px;
     padding-top: 50px;
     box-sizing: border-box;
-    font-size: 24px !important;
+    font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, .52);
