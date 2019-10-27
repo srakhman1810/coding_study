@@ -3,11 +3,11 @@
     padding: 0px;
 }
 
-
 .top-news__table {
     list-style: none;
     margin: 0px;
     padding: 0px;
+    margin-bottom: 50px;
 }
 
 .top-news__item {

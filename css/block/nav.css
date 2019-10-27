@@ -1,29 +1,33 @@
+.nav {
+    margin-bottom: 22px;
+}
+
+
 .nav__list {
     list-style: none;
     margin: 0px;
     padding-left: 0px;
     display: flex;
-    width: 340px;
+    flex-direction: column;
+    height: 102px;
     justify-content: space-between;
     align-items: center;
     font-size: 12px;
     font-weight: normal;
 }
 
-
 .nav a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-size: 12px;
-    font-family: 'Open Sans-Bold', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 1.2px;
-
 }
+
 .nav__link {
     padding-left: 37px;
-    padding-top: 2px; 
-    /* transition: 0.1s linear; */
+    padding-top: 2px;
     position: relative;
 }
 
@@ -32,44 +36,46 @@
 }
 
 .nav__link--afrodita:after {
-    content:"";
+    content: "";
     display: block;
     position: absolute;
     top: 0%;
     left: 0%;
-    width: 19px; height: 14px; 
-    background: url('../../img/css_sprites.png') -90px -10px;   
+    width: 19px;
+    height: 14px;
+    background: url('../../img/css_sprites2.png') -10px -48px;
 }
 
 .nav__link--feed:after {
-    content:"";
+    content: "";
     display: block;
     position: absolute;
     top: 0%;
     left: 0%;
-    width: 20px; height: 18px;
-    background: url('../../img/css_sprites.png') -50px -10px;
+    width: 20px;
+    height: 18px;
+    background: url('../../img/css_sprites2.png') -10px -10px;
 }
 
 .nav__link--service:after {
-    content:"";
+    content: "";
     display: block;
     position: absolute;
     top: 0%;
     left: 0%;
-    width: 19px; height: 14px;
-    background: url('../../img/css_sprites.png') -90px -44px;
+    width: 19px;
+    height: 14px;
+    background: url('../../img/css_sprites2.png') -49px -48px;
 }
 
-
 .nav__link--afrodita:hover:after {
-  background-position: -49px -48px;
+    background-position: -90px -44px;
 }
 
 .nav__link--feed:hover:after {
-    background-position: -10px -10px;
+    background-position: -50px -10px;
 }
 
 .nav__link--service:hover:after {
-    background-position: -10px -48px;
+    background-position: -90px -10px;
 }
