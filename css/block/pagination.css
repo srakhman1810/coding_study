@@ -1,5 +1,5 @@
 .pagination {
-    margin-right: 0px;
+    margin-right: 110px;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -10,7 +10,7 @@
 
 .pagination__display {
     margin: 0px;
-    margin-right: 9px;  
+    margin-right: 16px;  
 }
 
 .pagination__pager {
@@ -32,7 +32,7 @@
 .pagination__item {
     list-style: none;
     font-weight: bold;
-    margin-right: 17px;
+    margin-right: 16px;
    
 }
  

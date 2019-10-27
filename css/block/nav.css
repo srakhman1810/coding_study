@@ -1,5 +1,6 @@
 .nav {
-    margin-bottom: 22px;
+    margin-bottom: 20px;
+    margin-left: -23px;
 }
 
 .nav__list {
@@ -8,7 +9,7 @@
     padding-left: 0px;
     display: flex;
     flex-direction: column;
-    height: 102px;
+    height: 100px;
     justify-content: space-between;
     align-items: center;
     font-size: 12px;

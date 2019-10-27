@@ -1,5 +1,5 @@
 .social-networks__heading {
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     text-align: center;
 }
 
@@ -10,10 +10,11 @@
     justify-content: center;
     align-items: center;
     list-style: none;
+
 }
 
 .social-networks__item {
-    margin-right: 20px;
+    margin-right: 18px;
 }
 
 .social-networks__item:nth-child(5) {

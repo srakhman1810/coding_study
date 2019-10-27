@@ -1,14 +1,14 @@
 .features {
     color: rgb(19, 20, 21);
     border: 1px solid rgb(19, 20, 21);
-    padding: 28px 40px;
+    padding: 20px 38px 37px;
 }
 
 .features__heading {
     text-transform: uppercase;
     font-size: 18px;
     text-align: center;
-    margin: 0px 0px 32px;
+    margin: 0px 0px 23px;
 }
 
 .features__name {
@@ -17,7 +17,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-top: 0px;
-    margin-bottom: 21px;
+    margin-bottom: 13px;
     text-align: center;
 }
 
@@ -36,7 +36,8 @@
 }
 
 .feautures__text {
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom:18px;
 }
 
 .features__list {

@@ -3,24 +3,24 @@
     font-weight: bold;
     font-size: 49px;
     margin-top: 0px;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
     padding: 0px;
 }
 
 .last-news__table {
     margin: 0px;
     padding: 0px;
-    margin-bottom: 64px;
+    margin-bottom: 45px;
 }
 
 .last-news__item {
-    width: 832px;
+    width: 822px;
     height: 166px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin: 0px;
-    padding: 30px 0px;
+    padding: 27px 0px;
     border-bottom: solid rgb(208, 208, 208) 1px;
 }
 
@@ -36,8 +36,8 @@
 
 .last-news__comment {
     margin: 0px 0px;
-    height: 166px;
-    width: 600px;
+    height: 128px;
+    width: 630px;
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@
 }
 
 .last-news__topic {
-    margin: 0px 0px;
+    margin: 0px 0px 10px;
 }
 
 .last-news__text {
