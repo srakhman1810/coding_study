@@ -1,36 +1,35 @@
-.partners__container {
-    width: 880px;
-}
-
+.partners {
+    margin-bottom: 32px;
+    padding-top: 27px;
+    padding-bottom: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: 1px solid black;
+   
+}  
 
 .partners__heading {
     margin: 0px;
-    font-size: 49px;
-    text-align: left;
+    font-size: 18px;
+    text-align: center;
     text-transform: uppercase;
-    margin-bottom: 87px;
+    margin-bottom: 37px;
 }
 
-.partners__table {
+ .partners__table {
     margin: 0px auto;
     padding: 0px;
     text-align: center;
     list-style: none;
-    width: 725px;
-    height: 180px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-content: space-between;
-    flex-flow: row wrap;
+    height: 650px;
 }
-
-.partners__item {
-    width: 240px;
-}
-
+ 
 .partners__logo {
     filter:grayscale(90%);
-    transition: 1s linear;
+    transition: 0.5s linear;
 }
 
 .partners__logo:hover {
