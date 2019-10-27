@@ -1,18 +1,12 @@
 .reviews {
-    margin-bottom: 64px;
-}
-
-.reviews-container {
-    width: 880px;
-    margin: 0px auto;
-
+    margin-bottom: 60px;
 }
 
 .reviews__heading {
     font-size: 49px;
     text-align: left;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 37px;
     margin-top: 0px;
 }
 .reviews__table {
@@ -25,7 +19,7 @@
 .reviews__item {
     display: flex;
     height: 195px;
-    width: 880px;
+    width: 870px;
     justify-content: space-between;
     padding: 25px 0px;
     border-bottom: solid rgb(208, 208, 208) 1px;
@@ -36,11 +30,11 @@
 }
 
 .reviews__image-pic {
-width: 160px;
-height: 160px;
+width: 174px;
+height: 174px;
 border-radius: 50%;
 }
 
 .reviews__description{
- width: 685px;
+ width: 650px;
 }

@@ -1,6 +1,6 @@
-.form-container {
+.form {
     margin: 0px auto;
-    width: 700px;
+    width: 759px;
     background: rgb(245, 245, 245);
 }
 
@@ -14,7 +14,7 @@
 
 .form__box {
     margin: 0px auto;
-    padding: 52px 15% 50px 15%;
+    padding: 52px 10% 52px 10%;
 }
 
 .form__row {
@@ -24,14 +24,13 @@
 }
 
 .form__row-block {
-    flex: 1;
-    margin-left: 23px;
-
+    flex: 1;  
+    margin-right: 40px;
 }
 
-.form__row-block:nth-child(1) {
-    margin-left: 0px;
-}
+.form__row-block:nth-child(3) {
+    margin-right: 0px;
+} 
 
 .form__input {
     width: 100%;

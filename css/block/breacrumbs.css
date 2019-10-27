@@ -1,9 +1,8 @@
-.breadcrumbs{
-    margin-bottom:15px;
+.breadcrumbs {
+    margin-bottom: 15px;
 }
 
-
-.breadcrumbs__list{
+.breadcrumbs__list {
     padding: 0px;
     margin: 0px 0px;
     text-align: left;
@@ -25,12 +24,12 @@
     text-decoration: underline;
     color: rgb(248, 149, 19);
     margin-right: 2px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
-.breadcrumbs__link-active:hover{
+.breadcrumbs__link-active:hover {
     text-decoration: underline;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 .breadcrumbs__item-active {

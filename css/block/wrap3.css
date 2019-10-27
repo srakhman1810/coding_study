@@ -1,3 +1,21 @@
 .wrapper__content {
     margin-bottom: 61px;
 }
+
+.header {
+    margin-bottom: 40px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around; 
+}
+
+.nav {
+    margin-bottom: 50px !important;
+}
+
+.pagination {
+    margin-bottom: 60px;
+}
