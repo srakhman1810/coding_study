@@ -1,6 +1,7 @@
 .social-networks__heading {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     text-align: center;
+    font-size: 15px;
 }
 
 .social-networks__list {
