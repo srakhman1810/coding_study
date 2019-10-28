@@ -1,12 +1,12 @@
 .form {
-    margin: 0px auto;
     width: 759px;
     background: rgb(245, 245, 245);
+    font-size: 14px;
 }
 
 .form__heading {
     margin: 0px;
-    margin-bottom: 29px;
+    margin-bottom: 12px;
     font-size: 49px;
     font-weight: bold;
     text-align: left;
@@ -14,19 +14,26 @@
 
 .form__box {
     margin: 0px auto;
-    padding: 52px 10% 52px 10%;
+    padding: 34px 9% 34px 13%;
 }
 
 .form__row {
     display: flex;
     align-items: center;
-    margin-bottom: 20px
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.form__row:nth-child(2){
+    margin-bottom: 10px;
 }
 
 .form__row-block {
     flex: 1;  
     margin-right: 40px;
 }
+
+
 
 .form__row-block:nth-child(3) {
     margin-right: 0px;
@@ -37,7 +44,7 @@
     border: none;
     border-radius: 5px;
     background: rgb(255, 255, 255);
-    padding: 15px 9px;
+    padding: 11px 9px;
     outline: none;
     border: 1px solid transparent;
 }
@@ -60,7 +67,7 @@ textarea::placeholder {
 }
 
 .form__input-textarea {
-    height: 90px;
+    height: 67px;
     resize: vertical;
 }
 
@@ -136,6 +143,7 @@ input:checked ~ .form__circle .form__circle-checked {
     font-weight: bold;
     text-transform: uppercase;
     border: none;
+    margin-right: 22px;
 }
 
 .form__send:hover {

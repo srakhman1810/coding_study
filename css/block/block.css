@@ -1,18 +1,23 @@
 .block {
     background: rgb(0, 0, 0);
     background-image: url(../../img/background.png);
-    margin-bottom: 36px;
+    margin-bottom: 24px;
     height: 376px;
     width: 222px;
     font-size: 18px;
     color: rgb(255,255,255);
     text-align: center;
-    padding: 30px 26px 24px;
+    padding: 36px 23px 24px 26px;
     font-weight: lighter;
-
 }
 
 .block__text-active {
     color: rgb(248, 149, 19);
     font-weight: bold;
+}
+
+.block__text {
+    display: block;
+    height: 200px;
+    margin-top: 0px;
 }

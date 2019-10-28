@@ -1,5 +1,5 @@
 .wrapper__content {
-    margin-bottom: 61px;
+    margin-bottom: 49px;
 }
 
 .header {
@@ -9,13 +9,17 @@
 .main-container {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around; 
+    justify-content: flex-end; 
 }
 
+.second {
+    margin-right:24px;
+}
 .nav {
-    margin-bottom: 50px;
+    margin-bottom: 76px;
 }
 
 .pagination {
-    margin-bottom: 60px;
-}
+   margin-left: 110px;
+   justify-content: flex-start;
+} 
