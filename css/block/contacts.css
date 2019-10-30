@@ -23,8 +23,9 @@
 
 .contact__block:hover .contact__menu {
     display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
 }
-
 
 .contact__work-time {
     color: rgb(248, 149, 19);
@@ -46,12 +47,12 @@
 .contact__triangle {
     border: 20px solid transparent;
     width: 0px;
-    height: 0px;
+    height: 15px;
     border-bottom-color: rgb(255,255,255); 
     border-top-width: 0px;
     border-radius: 4px;
     position: absolute;
-    top: -17px;
+    top: -33px;
 } 
 
 .contact__list {

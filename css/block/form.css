@@ -97,9 +97,6 @@ textarea::placeholder {
 
 .form__checkbox-choice {
     margin-right: 6px;
-}
-
-.form__checkbox-choice {
     display: none;
 }
 
