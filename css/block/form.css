@@ -33,8 +33,6 @@
     margin-right: 40px;
 }
 
-
-
 .form__row-block:nth-child(3) {
     margin-right: 0px;
 } 
@@ -98,6 +96,7 @@ textarea::placeholder {
 .form__checkbox-choice {
     margin-right: 6px;
     display: none;
+   
 }
 
 .form__circle {
@@ -122,15 +121,18 @@ textarea::placeholder {
     
 }
 
-input:checked ~.form__checkbox-answer {
+input:checked ~ .form__checkbox-answer {
     color: rgb(248, 149, 19);
-}
+  }  
+  
+input:checked ~ .form__circle {
+    border-color: rgb(248, 149, 19);
+  } 
+input:checked~ .form__circle .form__circle-checked {
+      display: block;
+  }  
 
-input:checked ~ .form__circle .form__circle-checked {
-    display: block;
-}
-
-.form__send {
+ .form__send {
     height: 45px;
     width: 125px;
     border-radius: 5px;
@@ -141,13 +143,17 @@ input:checked ~ .form__circle .form__circle-checked {
     text-transform: uppercase;
     border: none;
     margin-right: 22px;
-}
+    border: 1px solid transparent;
+} 
 
-.form__send:hover {
+ .form__send:hover {
     cursor: pointer;
-}
+}  
 
 .form__send:active {
-    background: rgb(248, 149, 19);
     cursor: pointer;
+}   
+
+.form__send:focus {
+    background: rgb(248, 149, 19);
 }
