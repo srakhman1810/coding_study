@@ -1,5 +1,5 @@
 .social-networks__heading {
-    margin-bottom: 3px;
+    margin-bottom: 10px;
     text-align: center;
     font-size: 15px;
 }
@@ -15,9 +15,50 @@
 }
 
 .social-networks__item {
-    margin-right: 18px;
+    margin-right: 19px;
 }
 
 .social-networks__item:nth-child(5) {
     margin-right: 0px;
+}
+
+.social-networks__link-vk:after {
+    content: "";
+    display: block; 
+    width: 12px;
+    height: 7px;
+    background: url('../../img/social.png') -41px -39px;
+
+}
+
+.social-networks__link-fb:after {
+    content: "";
+    display: block; 
+    width: 6px;
+    height: 13px;
+    background: url('../../img/social.png') -77px -10px;
+}
+
+.social-networks__link-google:after {
+    content: "";
+    display: block; 
+    width: 15px;
+    height: 9px;
+    background: url('../../img/social.png') -10px -10px;
+}
+
+.social-networks__link-tw:after {
+    content: "";
+    display: block; 
+    width: 11px;
+    height: 9px;
+    background: url('../../img/social.png') -10px -39px;
+}
+
+.social-networks__link-mail:after {
+    content: "";
+    display: block; 
+    width: 12px;
+    height: 9px;
+    background: url('../../img/social.png') -45px -10px;
 }
