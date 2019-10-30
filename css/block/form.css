@@ -150,9 +150,7 @@ input:checked~ .form__circle .form__circle-checked {
     cursor: pointer;
 }  
 
-.form__send:active {
-    cursor: pointer;
-}   
+ 
 
 .form__send:focus {
     background: rgb(248, 149, 19);
