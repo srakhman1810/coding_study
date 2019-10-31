@@ -39,8 +39,9 @@
     align-items: flex-end; 
     margin: 0px auto;
     position: absolute; 
-    top: 45px;
+    top: 14px;
     right: 0%;
+    border-top: 25px solid transparent;
     display: none;
 }
 
