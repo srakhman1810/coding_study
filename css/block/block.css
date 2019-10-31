@@ -1,19 +1,14 @@
 .block {
     background: rgb(0, 0, 0);
     background-image: url(../../img/background.png);
-    margin-bottom: 61px;
-}
-
-.block-container {
-    width: 636px;
-    height: 107px;
-   
-    padding-top: 30px;
-    padding-bottom: 34px;
-    color: rgb(255, 255, 255);
+    margin-bottom: 24px;
+    height: 376px;
+    width: 222px;
     font-size: 18px;
+    color: rgb(255,255,255);
+    text-align: center;
+    padding: 36px 23px 24px 26px;
     font-weight: lighter;
-    font-family: -apple-system, 'Segoe UI', sans-serif;
 }
 
 .block__text-active {
@@ -22,8 +17,7 @@
 }
 
 .block__text {
-    margin: 0px 0px;
-    height: 100%;
-    width: 100%;
-    line-height: 27px;
+    display: block;
+    height: 200px;
+    margin-top: 0px;
 }

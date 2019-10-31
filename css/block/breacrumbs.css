@@ -1,13 +1,8 @@
-.breadcrumbs{
-    margin-bottom:28px;
+.breadcrumbs {
+    margin-bottom: 10px;
 }
 
-.breadcrumbs-container{
-    margin: 0px auto;
-    width: 880px;
-}
-
-.breadcrumbs__list{
+.breadcrumbs__list {
     padding: 0px;
     margin: 0px 0px;
     text-align: left;
@@ -22,14 +17,17 @@
 .breadcrumbs__link {
     text-decoration: none;
     color: black;
+    cursor: default;
 }
 
 .breadcrumbs__link-active {
     text-decoration: underline;
     color: rgb(248, 149, 19);
-    margin-right: 2px;
+    text-decoration: none;
 }
 
-.breadcrumbs__item-active {
-    margin-right: 4px;
+.breadcrumbs__link-active:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
+

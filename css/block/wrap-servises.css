@@ -1,0 +1,22 @@
+.wrapper__content {
+    margin-bottom: 45px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end; 
+}
+
+
+.header {
+    margin-bottom: 39px;
+}
+
+.nav {
+    margin-bottom: 66px;
+}
+
+.second {
+    margin-right: 20px;
+}

@@ -2,12 +2,12 @@
 @import url('./layout/normalize.css');
 @import url('./layout/base.css');
 
-@import url('./block/header2.css');
+@import url('./block/header.css');
 @import url('./block/logo.css');
 @import url('./block/nav.css');
 @import url('./block/contacts.css');
 
-@import url('./block/wrap3.css');
+@import url('./block/wrap-review.css');
 @import url('./block/breacrumbs.css');
 @import url('./block/reviews.css');
 @import url('./block/pagination.css');

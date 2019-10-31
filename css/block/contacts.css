@@ -2,6 +2,9 @@
     text-align: right;
     font-weight: bold;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .contacts__cellphone {
@@ -10,13 +13,64 @@
     text-decoration: none;
 }
 
-.contacts__work-time {
+.contact__block {
+    position: relative;
+}
+
+.contact__block:hover .contact__work-time {
+    color: rgb(255,255,255);
+}
+
+.contact__block:hover .contact__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+}
+
+.contact__work-time {
     color: rgb(248, 149, 19);
     font-size: 14px;
-    text-decoration: underline;
+    transition: 0.2s linear;
 }
 
-.contacts__work-time:hover {
-    color: rgb(255, 255, 255);
+.contact__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    margin: 0px auto;
+    position: absolute; 
+    top: 14px;
+    right: 0%;
+    border-top: 25px solid transparent;
+    display: none;
 }
 
+.contact__triangle {
+    border: 20px solid transparent;
+    width: 0px;
+    height: 15px;
+    border-bottom-color: rgb(255,255,255); 
+    border-top-width: 0px;
+    border-radius: 4px;
+    position: absolute;
+    top: -33px;
+} 
+
+.contact__list {
+    background: white;
+    list-style: none;
+    width: 124px;
+    padding: 17px 19px;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0px; 
+    box-shadow: 0 0 10px grey;  
+    border-radius: 4px;
+}
+
+.contact__item-active {
+    color: rgb(248, 149, 19);
+    font-weight: bold;
+    margin-bottom:5px;
+}

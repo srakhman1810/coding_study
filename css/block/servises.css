@@ -1,18 +1,9 @@
-.servises {
-    margin-bottom: 63px;
-}
-
-.servises-container {
-    width: 880px;
-}
-
-
 .servises__heading {
     font-size: 49px;
     font-weight: bold;
     text-align: left;
     text-transform: uppercase;
-    margin: 0 0 50px;
+    margin: 0 0 40px;
     padding: 0px;
 }
 
@@ -21,7 +12,7 @@
     padding: 0px;
     text-align: center;
     list-style: none;
-    width: 100%;
+    width: 840px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -30,19 +21,27 @@
 .servises__image {
     position: relative;
     height: 150px;
+    width: 250px;
+}
+
+.servises__item {
+    margin-bottom: 53px;
+}
+
+.servises__item:nth-child(1n+4) {
+    margin-bottom: 0px;
 }
 
 .servises__image-heading {
     margin: 0px 0px;
-    padding-top: 50px;
+    padding-top: 60px;
     box-sizing: border-box;
-    font-size: 24px !important;
+    font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, .52);
     width: 100%;
     height: 100%;
-
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,8 +54,21 @@
     width: 100%;
 }
 
-
 .servises__description {
     text-align: left;
-    width: 260px;
+    width: 250px;
+}
+
+.servises__description-heading: {
+    display: block;
+    font-size: 18px;
+    margin: 0px;
+
+}
+
+.servises__description-text {
+    display: block;
+    margin: 0px;
+    font-size: 14px;
+
 }

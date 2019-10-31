@@ -1,16 +1,14 @@
 .pagination {
-    margin-right: 0px;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 
 .pagination__display {
     margin: 0px;
-    margin-right: 9px;  
+    margin-right: 16px;  
 }
 
 .pagination__pager {
@@ -25,7 +23,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 170px; */
     margin: 0px;
     padding: 0px;
 }
@@ -33,7 +30,7 @@
 .pagination__item {
     list-style: none;
     font-weight: bold;
-    margin-right: 17px;
+    margin-right: 16px;
    
 }
  
@@ -46,6 +43,7 @@
 .pagination a {
     text-decoration: none;
     color: black;
+    transition: 0.1s linear;  
 }
 
 .pagination a:hover {
@@ -58,7 +56,7 @@
     width: 25px;
     height: 25px;
     text-align: center;
-    border-radius: 20%;
+    border-radius: 13%;
     padding: 0px;
     position: relative;
     vertical-align: middle;
