@@ -18,6 +18,7 @@
     text-decoration: none;
     color: black;
     cursor: default;
+    margin-right: 3px;
 }
 
 .breadcrumbs__link-active {
@@ -31,3 +32,6 @@
     cursor: pointer;
 }
 
+.breadcrumbs__separator{
+    margin-right: 3px;
+}
